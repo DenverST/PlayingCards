@@ -15,6 +15,7 @@
 		FF7B0BC5216DCDF500465D09 /* PlayingCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B0BC4216DCDF500465D09 /* PlayingCardTests.swift */; };
 		FF7B0BD0216DCDF500465D09 /* PlayingCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B0BCF216DCDF500465D09 /* PlayingCardUITests.swift */; };
 		FF7B0BDF216DD86B00465D09 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B0BDE216DD86B00465D09 /* PlayingCard.swift */; };
+		FF7B0BE1216DDD2400465D09 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B0BE0216DDD2400465D09 /* PlayingCardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FF7B0BCF216DCDF500465D09 /* PlayingCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardUITests.swift; sourceTree = "<group>"; };
 		FF7B0BD1216DCDF500465D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF7B0BDE216DD86B00465D09 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		FF7B0BE0216DDD2400465D09 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +85,6 @@
 				FF7B0BC3216DCDF500465D09 /* PlayingCardTests */,
 				FF7B0BCE216DCDF500465D09 /* PlayingCardUITests */,
 				FF7B0BAD216DCDF200465D09 /* Products */,
-				FF7B0BDE216DD86B00465D09 /* PlayingCard.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				FF7B0BB1216DCDF200465D09 /* ViewController.swift */,
+				FF7B0BDE216DD86B00465D09 /* PlayingCard.swift */,
+				FF7B0BE0216DDD2400465D09 /* PlayingCardDeck.swift */,
 				FF7B0BB3216DCDF200465D09 /* Main.storyboard */,
 				FF7B0BB6216DCDF500465D09 /* Assets.xcassets */,
 				FF7B0BBB216DCDF500465D09 /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF7B0BB2216DCDF200465D09 /* ViewController.swift in Sources */,
+				FF7B0BE1216DDD2400465D09 /* PlayingCardDeck.swift in Sources */,
 				FF7B0BDF216DD86B00465D09 /* PlayingCard.swift in Sources */,
 				FF7B0BB0216DCDF200465D09 /* AppDelegate.swift in Sources */,
 			);
