@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     
     @IBOutlet var cardViews: [PlayingCardView]!
     
+    lazy var animator = UIDynamicAnimator(referenceView: view)
+    
+    lazy var cardBehaviour = CardBehaviour(in: animator)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         var cards = [PlayingCard]()
@@ -28,6 +32,7 @@ class ViewController: UIViewController {
             cardView.rank = card.rank.order
             cardView.suit = card.suit.rawValue
             cardView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(flipCard(_:))))
+            cardBehaviour.addItem(cardView)
         }
         
     }
@@ -99,6 +104,12 @@ class ViewController: UIViewController {
         default:
             break
         }
+    }
+}
+
+extension CGFloat {
+    var arc4random: CGFloat {
+        return self * (CGFloat(arc4random_uniform(UInt32.max))/CGFloat(UInt32.max))
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF79987021A37F5F0009EB38 /* CardBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF79986F21A37F5F0009EB38 /* CardBehaviour.swift */; };
 		FF7B0BB0216DCDF200465D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B0BAF216DCDF200465D09 /* AppDelegate.swift */; };
 		FF7B0BB2216DCDF200465D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B0BB1216DCDF200465D09 /* ViewController.swift */; };
 		FF7B0BB5216DCDF200465D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7B0BB3216DCDF200465D09 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF79986F21A37F5F0009EB38 /* CardBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehaviour.swift; sourceTree = "<group>"; };
 		FF7B0BAC216DCDF200465D09 /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7B0BAF216DCDF200465D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF7B0BB1216DCDF200465D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				FF7B0BB1216DCDF200465D09 /* ViewController.swift */,
+				FF79986F21A37F5F0009EB38 /* CardBehaviour.swift */,
 				FFAC5902216E1049008F5D0A /* PlayingCardView.swift */,
 				FF7B0BDE216DD86B00465D09 /* PlayingCard.swift */,
 				FF7B0BE0216DDD2400465D09 /* PlayingCardDeck.swift */,
@@ -278,6 +281,7 @@
 				FF7B0BDF216DD86B00465D09 /* PlayingCard.swift in Sources */,
 				FFAC5903216E1049008F5D0A /* PlayingCardView.swift in Sources */,
 				FF7B0BB0216DCDF200465D09 /* AppDelegate.swift in Sources */,
+				FF79987021A37F5F0009EB38 /* CardBehaviour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
